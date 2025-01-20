@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Drum Machine</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png" />
+
+    <link
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css" />
+  </head>
+  <body>
+    <div class="container d-flex justify-content-center align-items-center">
+      <div id="drum-machine">
+        <div id="sound-pads">
+          <span class="drum-pad btn btn-primary mb-2" id="Heater-1"
+            ><audio
+              src="./assets/sounds/Heater-1.mp3"
+              type="audio/mpeg"
+              id="Q"
+              class="clip"
+            ></audio
+            >Q</span
+          >
+          <span class="drum-pad btn btn-primary mb-2" id="Heater-2"
+            ><audio
+              src="./assets/sounds/Heater-2.mp3"
+              type="audio/mpeg"
+              id="W"
+              class="clip"
+            ></audio>
+            W</span
+          >
+          <span class="drum-pad btn btn-primary mb-2" id="Heater-3"
+            ><audio
+              src="./assets/sounds/Heater-3.mp3"
+              type="audio/mpeg"
+              id="E"
+              class="clip"
+            ></audio
+            >E</span
+          >
+          <span class="drum-pad btn btn-primary mb-2" id="Heater-4"
+            ><audio
+              src="./assets/sounds/Heater-4_1.mp3"
+              type="audio/mpeg"
+              id="A"
+              class="clip"
+            ></audio
+            >A</span
+          >
+          <span class="drum-pad btn btn-primary mb-2" id="Heater-6"
+            ><audio
+              src="./assets/sounds/Heater-6.mp3"
+              type="audio/mpeg"
+              id="S"
+              class="clip"
+            ></audio
+            >S</span
+          >
+          <span class="drum-pad btn btn-primary mb-2" id="Dsc"
+            ><audio
+              src="./assets/sounds/Dsc_Oh.mp3"
+              type="audio/mpeg"
+              id="D"
+              class="clip"
+            ></audio
+            >D</span
+          >
+          <span class="drum-pad btn btn-primary mb-2" id="KicknHat"
+            ><audio
+              src="./assets/sounds/Kick_n_Hat.mp3"
+              type="audio/mpeg"
+              id="Z"
+              class="clip"
+            ></audio
+            >Z</span
+          >
+          <span class="drum-pad btn btn-primary mb-2" id="Kick"
+            ><audio
+              src="./assets/sounds/RP4_KICK_1.mp3"
+              type="audio/mpeg"
+              id="X"
+              class="clip"
+            ></audio
+            >X</span
+          >
+          <span class="drum-pad btn btn-primary mb-2" id="Cev"
+            ><audio
+              src="./assets/sounds/Cev_H2.mp3"
+              type="audio/mpeg"
+              id="C"
+              class="clip"
+            ></audio
+            >C</span
+          >
+        </div>
+        <div id="control-container">
+          <div id="display"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script type="module" src="./scripts/script.js"></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
